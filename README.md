@@ -11,7 +11,7 @@
 ### How to use:
 1. Download files with snippets from this repository
 2. Open Visual Studio
-3. Find menu "Tools" and click to "Code Snippets Manager..." or push keys <kbd>Ctrl</kbd>+<kbd>B</kbd> + <kbd>Ctrl</kbd>+<kbd>B</kbd>
+3. Find menu "Tools" and click to "Code Snippets Manager..." or push keys <kbd>Ctrl</kbd>+<kbd>K</kbd> + <kbd>Ctrl</kbd>+<kbd>B</kbd>
 4. In Code Snippets Manager push button "Import..."
 5. Select downloaded files
 6. Click "Ok"
