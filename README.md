@@ -1,11 +1,13 @@
 ### Snippets
 
 
-|  |Shortcut|Code                    |Imported namespace  |Filename                 |
-|--|:------:|------------------------|--------------------|------------------------:|
-|\*|**cwl** |```Console.Write(); ``` |*System*            |`Console.Write.snippet`  |
-|\*|**dwl** |```Debug.Write();```    |*System.Diagnostics*|`Debug.Write.snippet`    |
-|\*|**dw**  |```Debug.WriteLine();```|*System.Diagnostics*|`Debug.WriteLine.snippet`|
+|  |Shortcut|Code                       |Imported namespace  |Filename                    |
+|--|:------:|---------------------------|--------------------|----------------------------|
+|\*|**cwl** |```Console.Write(); ```    |*System*            |`Console.Write.snippet`     |
+|\*|**crl** |```Console.Read(); ```     |*System*            |`Console.Read.snippet`      |
+|\*|**cr**  |```Console.ReadLine(); ``` |*System*            |`Console.ReadLine.snippet`  |
+|\*|**dwl** |```Debug.Write();```       |*System.Diagnostics*|`Debug.Write.snippet`       |
+|\*|**dw**  |```Debug.WriteLine();```   |*System.Diagnostics*|`Debug.WriteLine.snippet`   |
 
 ---
 ### How to use:
