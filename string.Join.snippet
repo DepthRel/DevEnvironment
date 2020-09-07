@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>string.Join</Title>
+      <Author>DepthRel</Author>
+      <Description>Call insert of string.Join(separator, collection);</Description>
+      <Shortcut>sj</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[string.Join("$separator$", $collection$$end$);]]>
+      </Code>
+		<Declarations>
+		  <Literal>
+		  	<ID>separator</ID>
+		  	<ToolTip>Separator between collection values</ToolTip>
+			<Default>\n</Default>
+		  </Literal>
+		  <Literal>
+		  	<ID>collection</ID>
+		  	<ToolTip>Iterated collection</ToolTip>
+		  	<Default>Collection</Default>
+		  </Literal>
+		</Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
