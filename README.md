@@ -3,6 +3,8 @@
 
 |  |Shortcut|Code                       |Imported namespace  |Filename                    |
 |--|:------:|---------------------------|--------------------|----------------------------|
+|\*|**itp** |```int.TryParse(); ```     |*-*                 |`int.TryParse.snippet`     |
+|\*|**sj**  |```string.Join(); ```      |*-*                 |`string.Join.snippet`     |
 |\*|**cwl** |```Console.Write(); ```    |*System*            |`Console.Write.snippet`     |
 |\*|**crl** |```Console.Read(); ```     |*System*            |`Console.Read.snippet`      |
 |\*|**cr**  |```Console.ReadLine(); ``` |*System*            |`Console.ReadLine.snippet`  |
