@@ -4,18 +4,23 @@
     <Header>
       <Title>int.TryParse</Title>
       <Author>DepthRel</Author>
-      <Description>Call insert of int.TryParse(Console.ReadLine(), out var value);</Description>
+      <Description>Call insert of int.TryParse(input, out var value);</Description>
       <Shortcut>itp</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[int.TryParse(Console.ReadLine(), out var $number$$end$);]]>
+        <![CDATA[int.TryParse($input$, out var $number$);$end$]]>
       </Code>
       <Declarations>
         <Literal>
           <ID>number</ID>
           <ToolTip>int variable name</ToolTip>
           <Default>number</Default>
+        </Literal>
+        <Literal>
+          <ID>input</ID>
+          <ToolTip>Input string containing a number</ToolTip>
+          <Default>Console.ReadLine()</Default>
         </Literal>
       </Declarations>
     </Snippet>
