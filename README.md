@@ -1,16 +1,17 @@
 ### Snippets
 
 
-|  |Shortcut  |Code                       |Imported namespace  |Filename                                                                                                |
-|--|:--------:|---------------------------|--------------------|--------------------------------------------------------------------------------------------------------|
-|\*|**itp**   |```int.TryParse(); ```     |*-*                 |[`int.TryParse.snippet`](https://github.com/DepthRel/Snippets/blob/master/int.TryParse.snippet)         |
-|\*|**sj**    |```string.Join(); ```      |*-*                 |[`string.Join.snippet`](https://github.com/DepthRel/Snippets/blob/master/string.Join.snippet)           |
-|\*|**sctor** |```static ClassName {} ``` |*-*                 |[`sctor.snippet`](https://github.com/DepthRel/Snippets/blob/master/sctor.snippet)                       |
-|\*|**cwl**   |```Console.Write(); ```    |*System*            |[`Console.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Write.snippet)       |
-|\*|**crl**   |```Console.Read(); ```     |*System*            |[`Console.Read.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Read.snippet)         |
-|\*|**cr**    |```Console.ReadLine(); ``` |*System*            |[`Console.ReadLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.ReadLine.snippet) |
-|\*|**dwl**   |```Debug.Write();```       |*System.Diagnostics*|[`Debug.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.Write.snippet)           |
-|\*|**dw**    |```Debug.WriteLine();```   |*System.Diagnostics*|[`Debug.WriteLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.WriteLine.snippet)   |
+|  |Shortcut  |Code                         |Imported namespace  |Filename                                                                                                |
+|--|:--------:|-----------------------------|--------------------|--------------------------------------------------------------------------------------------------------|
+|\*|**itp**   |```int.TryParse(); ```       |*-*                 |[`int.TryParse.snippet`](https://github.com/DepthRel/Snippets/blob/master/int.TryParse.snippet)         |
+|\*|**sj**    |```string.Join(); ```        |*-*                 |[`string.Join.snippet`](https://github.com/DepthRel/Snippets/blob/master/string.Join.snippet)           |
+|\*|**sctor** |```static ClassName {} ```   |*-*                 |[`sctor.snippet`](https://github.com/DepthRel/Snippets/blob/master/sctor.snippet)                       |
+|\*|**dp**    |```DependencyProperty... ``` |*System.Windows*    |[`dp.snippet`](https://github.com/DepthRel/Snippets/blob/master/dp.snippet)                             |
+|\*|**cwl**   |```Console.Write(); ```      |*System*            |[`Console.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Write.snippet)       |
+|\*|**crl**   |```Console.Read(); ```       |*System*            |[`Console.Read.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Read.snippet)         |
+|\*|**cr**    |```Console.ReadLine(); ```   |*System*            |[`Console.ReadLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.ReadLine.snippet) |
+|\*|**dwl**   |```Debug.Write();```         |*System.Diagnostics*|[`Debug.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.Write.snippet)           |
+|\*|**dw**    |```Debug.WriteLine();```     |*System.Diagnostics*|[`Debug.WriteLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.WriteLine.snippet)   |
 
 ---
 ### How to use:
