@@ -6,6 +6,7 @@
 |\*|**itp**   |```int.TryParse(); ```       |*-*                 |[`int.TryParse.snippet`](https://github.com/DepthRel/Snippets/blob/master/int.TryParse.snippet)         |
 |\*|**sj**    |```string.Join(); ```        |*-*                 |[`string.Join.snippet`](https://github.com/DepthRel/Snippets/blob/master/string.Join.snippet)           |
 |\*|**sctor** |```static ClassName {} ```   |*-*                 |[`sctor.snippet`](https://github.com/DepthRel/Snippets/blob/master/sctor.snippet)                       |
+|\*|**props** |```static auto property ```  |*-*                 |[`props.snippet`](https://github.com/DepthRel/Snippets/blob/master/props.snippet)                       |
 |\*|**dp**    |```DependencyProperty... ``` |*System.Windows*    |[`dp.snippet`](https://github.com/DepthRel/Snippets/blob/master/dp.snippet)                             |
 |\*|**cwl**   |```Console.Write(); ```      |*System*            |[`Console.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Write.snippet)       |
 |\*|**crl**   |```Console.Read(); ```       |*System*            |[`Console.Read.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Read.snippet)         |
