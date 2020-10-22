@@ -7,6 +7,7 @@
 |\*|**sj**    |```string.Join(); ```        |*-*                 |[`string.Join.snippet`](https://github.com/DepthRel/Snippets/blob/master/string.Join.snippet)           |
 |\*|**sctor** |```static ClassName {} ```   |*-*                 |[`sctor.snippet`](https://github.com/DepthRel/Snippets/blob/master/sctor.snippet)                       |
 |\*|**props** |```static auto property ```  |*-*                 |[`props.snippet`](https://github.com/DepthRel/Snippets/blob/master/props.snippet)                       |
+|\*|**propi** |```init auto property ```    |*-*                 |[`propi.snippet`](https://github.com/DepthRel/Snippets/blob/master/propi.snippet)                       |
 |\*|**dp**    |```DependencyProperty... ``` |*System.Windows*    |[`dp.snippet`](https://github.com/DepthRel/Snippets/blob/master/dp.snippet)                             |
 |\*|**cwl**   |```Console.Write(); ```      |*System*            |[`Console.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Write.snippet)       |
 |\*|**crl**   |```Console.Read(); ```       |*System*            |[`Console.Read.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Read.snippet)         |
