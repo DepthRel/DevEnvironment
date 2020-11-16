@@ -14,8 +14,7 @@
 |\*|**cr**    |```Console.ReadLine(); ```   |*System*            |[`Console.ReadLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.ReadLine.snippet) |
 |\*|**dwl**   |```Debug.Write();```         |*System.Diagnostics*|[`Debug.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.Write.snippet)           |
 |\*|**dw**    |```Debug.WriteLine();```     |*System.Diagnostics*|[`Debug.WriteLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.WriteLine.snippet)   |
-|\*|**inpc**  |```INPC implementation```    |*System.ComponentModel*|[`inpc.snippet`](https://github.com/DepthRel/Snippets/blob/master/inpc.snippet)                      |
-|  |          |                             |*System.Runtime.CompilerServices*|                                                                                           |
+|\*|**inpc**  |```INPC implementation```    |*System.Runtime.CompilerServices*|[`inpc.snippet`](https://github.com/DepthRel/Snippets/blob/master/inpc.snippet)            |
 
 ---
 ### How to use:
