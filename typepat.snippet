@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Type Pattern</Title>
+      <Author>DepthRel</Author>
+      <Description>Call type pattern</Description>
+      <Shortcut>typepat</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[if ($Variable$ is $Type$ $Value$)
+                 {
+                     $end$
+                 }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>Variable</ID>
+          <ToolTip>The name of variable</ToolTip>
+          <Default>variable</Default>
+        </Literal>
+        <Literal>
+          <ID>Type</ID>
+          <ToolTip>The type of variable</ToolTip>
+          <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>Value</ID>
+          <ToolTip>The name of cast variable</ToolTip>
+          <Default>value</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
