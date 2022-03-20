@@ -1,5 +1,5 @@
-Very useful extensions for more productivity work.
-The Following extensions are actuals for Visual Studio 2022 and 2019.
+### Very useful extensions for more productivity work.
+#### The Following extensions are actuals for Visual Studio 2022 and 2019.
 
 1. SwitchStartupProject
    Extension for startup several applications. Template of configuration placed in:
