@@ -1,22 +1,18 @@
-### Very useful extensions for more productivity work.
+### The most useful extensions for more productivity work.
 #### The Following extensions are actuals for Visual Studio 2022 and 2019.
 
-1. SwitchStartupProject
-   Extension for startup several applications. Template of configuration placed in:
-   -Extensions
-   -- SwitchStartupProject
-   --- Configuration.json
+---
 
-   Repos: https://heptapod.host/thirteen/switchstartupproject
+1. [SwitchStartupProject](https://heptapod.host/thirteen/switchstartupproject)  
+   Extension for startup several applications. Template of configuration placed in:  
+   - Extensions
+     - SwitchStartupProject
+       - Configuration.json
 
-2. SideScroller
-   Extension for scrolling to left and right sides with mouse wheel when shift holded.
-   Hotkey: holded left or right Shift + mouse wheel moving.
+2. [SideScroller](https://github.com/drewnoakes/vs-side-scroller)  
+   Extension for scrolling to left and right sides with mouse wheel when shift holded.  
+   Hotkey: holded <kbd>left or right Shift</kbd> + <kbd>Mouse wheel scrolling</kbd>.
 
-   Repos: https://github.com/drewnoakes/vs-side-scroller
-
-3. XAML Styler
-   Extension for clean up XAML code in selected *.xaml file.
-   Hotkey: CTRL+K, CTRL+2.
-
-   Repos: https://github.com/Xavalon/XamlStyler/
+3. [XAML Styler](https://github.com/Xavalon/XamlStyler/)  
+   Extension for clean up XAML code in selected *.xaml file.  
+   Hotkey: <kbd>CTRL</kbd>+<kbd>K</kbd>, <kbd>CTRL</kbd>+<kbd>2</kbd>.
