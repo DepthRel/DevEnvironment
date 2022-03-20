@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Static constructor</Title>
+      <Author>DepthRel</Author>
+      <Description>Call insert of static constructor</Description>
+      <Shortcut>sctor</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[static $classname$$end$()
+                 {
+                   $end$
+                 }
+        ]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>classname</ID>
+          <ToolTip>The name of current class</ToolTip>
+          <Default>ClassName</Default>
+          <Function>ClassName()</Function>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Registering a Dependency Property</Title>
+      <Author>DepthRel</Author>
+      <Description>Call insert of dependency property registration</Description>
+      <Shortcut>dp</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[public $variable$ $MyProperty$
+                 {
+                     get => ($variable$)GetValue($MyProperty$Property);
+                     set => SetValue($MyProperty$Property, value);
+                 }
+                 
+                 public static readonly DependencyProperty $MyProperty$Property =
+                     DependencyProperty.Register(nameof($MyProperty$), typeof($variable$), typeof($ownerclass$), new PropertyMetadata($default$));
+        $end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>MyProperty</ID>
+          <ToolTip>The name of registered property</ToolTip>
+          <Default>MyProperty</Default>
+        </Literal>
+        <Literal>
+          <ID>variable</ID>
+          <ToolTip>The stored value type</ToolTip>
+          <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>default</ID>
+          <ToolTip>Default value</ToolTip>
+          <Default>default</Default>
+        </Literal>
+        <Literal>
+          <ID>ownerclass</ID>
+          <ToolTip>The name of current class</ToolTip>
+          <Default>ownerclass</Default>
+          <Function>ClassName()</Function>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Windows</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
