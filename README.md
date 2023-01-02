@@ -3,20 +3,22 @@
 
 |  |Shortcut   |Code                         |Imported namespace  |Filename                                                                                                |
 |--|:---------:|-----------------------------|--------------------|--------------------------------------------------------------------------------------------------------|
-|\*|**itp**    |```int.TryParse(); ```       |*-*                 |[`int.TryParse.snippet`](https://github.com/DepthRel/Snippets/blob/master/int.TryParse.snippet)         |
-|\*|**dtp**    |```double.TryParse(); ```    |*-*                 |[`double.TryParse.snippet`](https://github.com/DepthRel/Snippets/blob/master/double.TryParse.snippet)   |
-|\*|**sj**     |```string.Join(); ```        |*-*                 |[`string.Join.snippet`](https://github.com/DepthRel/Snippets/blob/master/string.Join.snippet)           |
-|\*|**sctor**  |```static ClassName {} ```   |*-*                 |[`sctor.snippet`](https://github.com/DepthRel/Snippets/blob/master/sctor.snippet)                       |
-|\*|**props**  |```static auto property ```  |*-*                 |[`props.snippet`](https://github.com/DepthRel/Snippets/blob/master/props.snippet)                       |
-|\*|**propi**  |```init auto property ```    |*-*                 |[`propi.snippet`](https://github.com/DepthRel/Snippets/blob/master/propi.snippet)                       |
-|\*|**typepat**|```Type pattern```           |*-*                 |[`typepat.snippet`](https://github.com/DepthRel/Snippets/blob/master/typepat.snippet)                   |
-|\*|**cwl**    |```Console.Write(); ```      |*System*            |[`Console.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Write.snippet)       |
-|\*|**crl**    |```Console.Read(); ```       |*System*            |[`Console.Read.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.Read.snippet)         |
-|\*|**cr**     |```Console.ReadLine(); ```   |*System*            |[`Console.ReadLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Console.ReadLine.snippet) |
-|\*|**dp**     |```DependencyProperty... ``` |*System.Windows*    |[`dp.snippet`](https://github.com/DepthRel/Snippets/blob/master/dp.snippet)                             |
-|\*|**dwl**    |```Debug.Write();```         |*System.Diagnostics*|[`Debug.Write.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.Write.snippet)           |
-|\*|**dw**     |```Debug.WriteLine();```     |*System.Diagnostics*|[`Debug.WriteLine.snippet`](https://github.com/DepthRel/Snippets/blob/master/Debug.WriteLine.snippet)   |
-|\*|**inpc**   |```INPC implementation```    |*System.Runtime.CompilerServices*|[`inpc.snippet`](https://github.com/DepthRel/Snippets/blob/master/inpc.snippet)            |
+|\*|**itp**    |```int.TryParse(); ```       |*-*                 |[`int.TryParse.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/int.TryParse.snippet)         |
+|\*|**dtp**    |```double.TryParse(); ```    |*-*                 |[`double.TryParse.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/double.TryParse.snippet)   |
+|\*|**sj**     |```string.Join(); ```        |*-*                 |[`string.Join.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/string.Join.snippet)           |
+|\*|**sctor**  |```static ClassName {} ```   |*-*                 |[`sctor.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/sctor.snippet)                       |
+|\*|**props**  |```static auto property ```  |*-*                 |[`props.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/props.snippet)                       |
+|\*|**propi**  |```init auto property ```    |*-*                 |[`propi.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/propi.snippet)                       |
+|\*|**typepat**|```Type pattern```           |*-*                 |[`typepat.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/typepat.snippet)                   |
+|\*|**cwl**    |```Console.Write(); ```      |*System*            |[`Console.Write.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Console.Write.snippet)       |
+|\*|**crl**    |```Console.Read(); ```       |*System*            |[`Console.Read.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Console.Read.snippet)         |
+|\*|**cr**     |```Console.ReadLine(); ```   |*System*            |[`Console.ReadLine.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Console.ReadLine.snippet) |
+|\*|**dp**     |```DependencyProperty... ``` |*System.Windows*    |[`dp.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/dp.snippet)                             |
+|\*|**dwl**    |```Debug.Write();```         |*System.Diagnostics*|[`Debug.Write.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Debug.Write.snippet)           |
+|\*|**dw**     |```Debug.WriteLine();```     |*System.Diagnostics*|[`Debug.WriteLine.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Debug.WriteLine.snippet)   |
+|\*|**inpc**   |```INPC implementation```    |*System.Runtime.CompilerServices*|[`inpc.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/inpc.snippet)            |
+|\*|**efprop**   |```EF property configuration```    |*-*|[`efprop.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efprop.snippet)            |
+|\*|**efone**   |```EF reference configuration```    |*-*|[`efone.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efone.snippet)            |
 
 ---
 ### How to use:
