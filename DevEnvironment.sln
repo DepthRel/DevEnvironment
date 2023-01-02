@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{81
 		Snippets\sctor.snippet = Snippets\sctor.snippet
 		Snippets\string.Join.snippet = Snippets\string.Join.snippet
 		Snippets\typepat.snippet = Snippets\typepat.snippet
+		Snippets\efprop.snippet = Snippets\efprop.snippet
+		Snippets\efone.snippet = Snippets\efone.snippet
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{F09DDAFD-685F-42DC-8D7F-46DB452FFB64}"
@@ -29,6 +31,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SwitchStartupProject", "SwitchStartupProject", "{2B38A73D-DE04-41E8-88B8-4CC06DFD14AF}"
 	ProjectSection(SolutionItems) = preProject
 		Extensions\SwitchStartupProject\Configuration.json = Extensions\SwitchStartupProject\Configuration.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{34E640D1-16F2-4CDD-A617-BC1C930D79FB}"
+	ProjectSection(SolutionItems) = preProject
+		Views\Positions.txt = Views\Positions.txt
 	EndProjectSection
 EndProject
 Global

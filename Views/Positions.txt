@@ -1,0 +1,17 @@
+Common views positions on the working sides
+=================================================================
+Top-Left:
+1. Test Explorer
+2. Solution Explorer
+=================================================================
+Top-Right
+1. Solution Explorer
+2. Git Changes
+=================================================================
+Bottom:
+1. Error List
+2. Output
+3. Breakpoints
+4. Task List
+5. Bookmarks
+6. C# Interactive
