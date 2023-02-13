@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Ignore property in AutoMapper</Title>
+      <Author>DepthRel</Author>
+      <Description>Call insert of ignore property for AutoMapper profile</Description>
+      <Shortcut>aim</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[.ForMember(d => d.$Property$, o => o.Ignore())$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>Property</ID>
+          <ToolTip>Mapped property</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
