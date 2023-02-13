@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Mapping property in AutoMapper</Title>
+      <Author>DepthRel</Author>
+      <Description>Call insert of custom property mapping for AutoMapper profile</Description>
+      <Shortcut>am</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[.ForMember(d => d.$Property$, o => o.MapFrom(s => s.%Source%))$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>Property</ID>
+          <ToolTip>Mapped property</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+		<Literal>
+          <ID>Source</ID>
+          <ToolTip>Source property</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
