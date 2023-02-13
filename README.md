@@ -19,7 +19,8 @@
 |\*|**inpc**   |```INPC implementation```    |*System.Runtime.CompilerServices*|[`inpc.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/inpc.snippet)            |
 |\*|**efprop**   |```EF property configuration```    |*-*|[`efprop.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efprop.snippet)            |
 |\*|**efone**   |```EF reference configuration```    |*-*|[`efone.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efone.snippet)            |
-|\*|**ami**     |```AutoMapper Ignore```    |*-*|[`efone.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/ami.snippet)            |
+|\*|**am**     |```AutoMapper custom mapping```    |*-*|[`am.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/am.snippet)            |
+|\*|**ami**     |```AutoMapper Ignore```    |*-*|[`ami.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/ami.snippet)            |
 
 ---
 ### How to use:
