@@ -18,6 +18,7 @@
 |\*|**dw**     |```Debug.WriteLine();```     |*System.Diagnostics*|[`Debug.WriteLine.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Debug.WriteLine.snippet)   |
 |\*|**inpc**   |```INPC implementation```    |*System.Runtime.CompilerServices*|[`inpc.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/inpc.snippet)            |
 |\*|**efprop**   |```EF property configuration```    |*-*|[`efprop.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efprop.snippet)            |
+|\*|**efstr**   |```EF string property configuration``` |*-*|[`efstr.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efstr.snippet)            |
 |\*|**efone**   |```EF reference configuration```    |*-*|[`efone.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/efone.snippet)            |
 |\*|**am**     |```AutoMapper custom mapping```    |*-*|[`am.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/am.snippet)            |
 |\*|**ami**     |```AutoMapper Ignore```    |*-*|[`ami.snippet`](https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/ami.snippet)            |
