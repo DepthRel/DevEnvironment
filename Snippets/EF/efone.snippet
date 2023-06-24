@@ -2,14 +2,17 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Configure property for EF provider</Title>
+      <Title>Configure reference property for EF provider</Title>
       <Author>DepthRel</Author>
-      <Description>Call insert of configuration of the column on entity property</Description>
-      <Shortcut>efprop</Shortcut>
+      <Description>Call insert of configuration of the column on entity reference property</Description>
+      <Shortcut>efone</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[builder.Property(x => x.$Property$).HasColumnName(Columns.$ColumnName$).HasPrecision(%Precision%).IsRequired($IsRequired$);
+        <![CDATA[builder.HasOne(x => x.$Property$)
+		    .WithMany()
+		    .HasForeignKey(x => x.$NavigationProperty$)
+		    .IsRequired($IsRequired$);
         $end$]]>
       </Code>
       <Declarations>
@@ -18,15 +21,10 @@
           <ToolTip>Mapped property</ToolTip>
           <Default>Id</Default>
         </Literal>
-		<Literal>
-          <ID>ColumnName</ID>
-          <ToolTip>The name of column in table</ToolTip>
-          <Default>ID</Default>
-        </Literal>
         <Literal>
-          <ID>Precision</ID>
-          <ToolTip>The precision of column in table</ToolTip>
-          <Default>19</Default>
+          <ID>NavigationProperty</ID>
+          <ToolTip>Navigation property</ToolTip>
+          <Default>Id</Default>
         </Literal>
 		<Literal>
           <ID>IsRequired</ID>

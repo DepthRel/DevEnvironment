@@ -4,24 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}"
-	ProjectSection(SolutionItems) = preProject
-		Snippets\Console.Read.snippet = Snippets\Console.Read.snippet
-		Snippets\Console.ReadLine.snippet = Snippets\Console.ReadLine.snippet
-		Snippets\Console.Write.snippet = Snippets\Console.Write.snippet
-		Snippets\Debug.Write.snippet = Snippets\Debug.Write.snippet
-		Snippets\Debug.WriteLine.snippet = Snippets\Debug.WriteLine.snippet
-		Snippets\double.TryParse.snippet = Snippets\double.TryParse.snippet
-		Snippets\dp.snippet = Snippets\dp.snippet
-		Snippets\inpc.snippet = Snippets\inpc.snippet
-		Snippets\int.TryParse.snippet = Snippets\int.TryParse.snippet
-		Snippets\propi.snippet = Snippets\propi.snippet
-		Snippets\props.snippet = Snippets\props.snippet
-		Snippets\sctor.snippet = Snippets\sctor.snippet
-		Snippets\string.Join.snippet = Snippets\string.Join.snippet
-		Snippets\typepat.snippet = Snippets\typepat.snippet
-		Snippets\efprop.snippet = Snippets\efprop.snippet
-		Snippets\efone.snippet = Snippets\efone.snippet
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{F09DDAFD-685F-42DC-8D7F-46DB452FFB64}"
 	ProjectSection(SolutionItems) = preProject
@@ -38,12 +20,62 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{34E640D1
 		Views\Positions.txt = Views\Positions.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF", "EF", "{CBC69FD9-CE30-4CFB-A29B-4935B10E3E0C}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\EF\efone.snippet = Snippets\EF\efone.snippet
+		Snippets\EF\efprop.snippet = Snippets\EF\efprop.snippet
+		Snippets\EF\efstr.snippet = Snippets\EF\efstr.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapper", "AutoMapper", "{DEC3504F-B853-4D5E-B937-43C4B005159E}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\AutoMapper\am.snippet = Snippets\AutoMapper\am.snippet
+		Snippets\AutoMapper\ami.snippet = Snippets\AutoMapper\ami.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{09C5D56F-1E7F-4B72-98DB-B90FF5D20088}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\Console\Console.Read.snippet = Snippets\Console\Console.Read.snippet
+		Snippets\Console\Console.ReadLine.snippet = Snippets\Console\Console.ReadLine.snippet
+		Snippets\Console\Console.Write.snippet = Snippets\Console\Console.Write.snippet
+		Snippets\Console\Debug.Write.snippet = Snippets\Console\Debug.Write.snippet
+		Snippets\Console\Debug.WriteLine.snippet = Snippets\Console\Debug.WriteLine.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{92704016-CB93-45A1-97AB-E7BCB2C52F0D}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\Properties\propi.snippet = Snippets\Properties\propi.snippet
+		Snippets\Properties\sprop.snippet = Snippets\Properties\sprop.snippet
+		Snippets\Properties\string.Join.snippet = Snippets\Properties\string.Join.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Types", "Types", "{5AE2DD4F-A481-4523-AB11-73D31AC77EB5}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\Types\double.TryParse.snippet = Snippets\Types\double.TryParse.snippet
+		Snippets\Types\int.TryParse.snippet = Snippets\Types\int.TryParse.snippet
+		Snippets\Types\long.TryParse.snippet = Snippets\Types\long.TryParse.snippet
+		Snippets\Types\sctor.snippet = Snippets\Types\sctor.snippet
+		Snippets\Types\typepat.snippet = Snippets\Types\typepat.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wpf", "Wpf", "{C5ABD5B1-6520-4711-BFD2-28DD1A07E0EB}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\Wpf\dp.snippet = Snippets\Wpf\dp.snippet
+		Snippets\Wpf\inpc.snippet = Snippets\Wpf\inpc.snippet
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2B38A73D-DE04-41E8-88B8-4CC06DFD14AF} = {F09DDAFD-685F-42DC-8D7F-46DB452FFB64}
+		{CBC69FD9-CE30-4CFB-A29B-4935B10E3E0C} = {81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}
+		{DEC3504F-B853-4D5E-B937-43C4B005159E} = {81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}
+		{09C5D56F-1E7F-4B72-98DB-B90FF5D20088} = {81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}
+		{92704016-CB93-45A1-97AB-E7BCB2C52F0D} = {81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}
+		{5AE2DD4F-A481-4523-AB11-73D31AC77EB5} = {81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}
+		{C5ABD5B1-6520-4711-BFD2-28DD1A07E0EB} = {81E00F76-0DD3-4DB4-BDE7-33605C50DBCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C3851B4-4CCE-469C-B095-833CCF0D70D0}

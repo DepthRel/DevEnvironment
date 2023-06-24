@@ -2,17 +2,14 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Configure reference property for EF provider</Title>
+      <Title>Configure string property for EF provider</Title>
       <Author>DepthRel</Author>
-      <Description>Call insert of configuration of the column on entity reference property</Description>
-      <Shortcut>efone</Shortcut>
+      <Description>Call insert of configuration of the string column on entity property</Description>
+      <Shortcut>efstr</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[builder.HasOne(x => x.$Property$)
-		    .WithMany()
-		    .HasForeignKey(Columns.$ColumnName$)
-		    .IsRequired($IsRequired$);
+        <![CDATA[builder.Property(x => x.$Property$).HasColumnName(Columns.$ColumnName$).HasMaxLength($Length$).IsRequired($IsRequired$);
         $end$]]>
       </Code>
       <Declarations>
@@ -21,10 +18,15 @@
           <ToolTip>Mapped property</ToolTip>
           <Default>Id</Default>
         </Literal>
-        <Literal>
+		<Literal>
           <ID>ColumnName</ID>
           <ToolTip>The name of column in table</ToolTip>
           <Default>ID</Default>
+        </Literal>
+        <Literal>
+          <ID>Length</ID>
+          <ToolTip>The max length of string column in table</ToolTip>
+          <Default>64</Default>
         </Literal>
 		<Literal>
           <ID>IsRequired</ID>

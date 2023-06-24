@@ -2,14 +2,14 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Configure string property for EF provider</Title>
+      <Title>Configure property for EF provider</Title>
       <Author>DepthRel</Author>
-      <Description>Call insert of configuration of the string column on entity property</Description>
+      <Description>Call insert of configuration of the column on entity property</Description>
       <Shortcut>efprop</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[builder.Property(x => x.$Property$).HasColumnName(Columns.$ColumnName$).HasMaxLength(%Length%).IsRequired($IsRequired$);
+        <![CDATA[builder.Property(x => x.$Property$).HasColumnName(Columns.$ColumnName$).HasPrecision($Precision$).IsRequired($IsRequired$);
         $end$]]>
       </Code>
       <Declarations>
@@ -24,9 +24,9 @@
           <Default>ID</Default>
         </Literal>
         <Literal>
-          <ID>Length</ID>
-          <ToolTip>The max length of string column in table</ToolTip>
-          <Default>64</Default>
+          <ID>Precision</ID>
+          <ToolTip>The precision of column in table</ToolTip>
+          <Default>19</Default>
         </Literal>
 		<Literal>
           <ID>IsRequired</ID>

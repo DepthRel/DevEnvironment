@@ -2,7 +2,7 @@ Common views positions on the working sides
 =================================================================
 Top-Left:
 1. Test Explorer
-2. Solution Explorer
+2. Server Explorer
 =================================================================
 Top-Right
 1. Solution Explorer
