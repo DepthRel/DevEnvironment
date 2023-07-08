@@ -99,7 +99,7 @@
         </tr>
         <!-- Types -->
         <tr>
-            <td rowspan=5 align="center">Types</td>
+            <td rowspan=6 align="center">Types</td>
             <td align="center"><b>itp</b></td>
             <td align="left"><code>int.TryParse()</code></td>
             <td align="left">-</td>
@@ -112,10 +112,16 @@
             <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Types/double.TryParse.snippet">double.TryParse.snippet</a></td>
         </tr>
         <tr>
-            <td align="center"><b>ltp</b></td>
-            <td align="left"><code>long.TryParse()</code></td>
+            <td align="center"><b>tp</b></td>
+            <td align="left"><code>type.TryParse()</code></td>
             <td align="left">-</td>
-            <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Types/long.TryParse.snippet">long.TryParse.snippet</a></td>
+            <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Types/type.TryParse.snippet">type.TryParse.snippet</a></td>
+        </tr>
+        <tr>
+            <td align="center"><b>parse</b></td>
+            <td align="left"><code>type.Parse()</code></td>
+            <td align="left">-</td>
+            <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Types/type.Parse.snippet">type.Parse.snippet</a></td>
         </tr>
         <tr>
             <td align="center"><b>sctor</b></td>
@@ -147,7 +153,9 @@
 </table>
 
 ---
+
 ### How to use:
+
 1. Download files with snippets from this repository
 2. Open Visual Studio
 3. Find menu "Tools" and click to "Code Snippets Manager..." or push keys <kbd>Ctrl</kbd>+<kbd>K</kbd> + <kbd>Ctrl</kbd>+<kbd>B</kbd>

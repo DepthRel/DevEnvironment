@@ -2,20 +2,20 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>long.TryParse</Title>
+      <Title>type.Parse</Title>
       <Author>DepthRel</Author>
-      <Description>Call insert of long.TryParse(input, out var value);</Description>
-      <Shortcut>ltp</Shortcut>
+      <Description>Call insert of type.Parse(input)</Description>
+      <Shortcut>parse</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[long.TryParse($input$, out var $number$)$end$]]>
+        <![CDATA[$type$.Parse($input$)$end$]]>
       </Code>
       <Declarations>
         <Literal>
-          <ID>number</ID>
-          <ToolTip>long variable name</ToolTip>
-          <Default>number</Default>
+          <ID>type</ID>
+          <ToolTip>the type of parse</ToolTip>
+          <Default>long</Default>
         </Literal>
         <Literal>
           <ID>input</ID>

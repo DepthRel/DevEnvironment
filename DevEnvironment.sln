@@ -53,8 +53,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Types", "Types", "{5AE2DD4F
 	ProjectSection(SolutionItems) = preProject
 		Snippets\Types\double.TryParse.snippet = Snippets\Types\double.TryParse.snippet
 		Snippets\Types\int.TryParse.snippet = Snippets\Types\int.TryParse.snippet
-		Snippets\Types\long.TryParse.snippet = Snippets\Types\long.TryParse.snippet
 		Snippets\Types\sctor.snippet = Snippets\Types\sctor.snippet
+		Snippets\Types\type.Parse.snippet = Snippets\Types\type.Parse.snippet
+		Snippets\Types\type.TryParse.snippet = Snippets\Types\type.TryParse.snippet
 		Snippets\Types\typepat.snippet = Snippets\Types\typepat.snippet
 	EndProjectSection
 EndProject
