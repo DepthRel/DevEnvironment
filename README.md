@@ -86,7 +86,7 @@
             <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Properties/string.Join.snippet">string.Join.snippet</a></td>
         </tr>
         <tr>
-            <td align="center"><b>efstr</b></td>
+            <td align="center"><b>sprop</b></td>
             <td align="left"><code>static auto property</code></td>
             <td align="left">-</td>
             <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Properties/sprop.snippet">sprop.snippet</a></td>
