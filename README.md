@@ -79,7 +79,7 @@
         </tr>
         <!-- Properties -->
         <tr>
-            <td rowspan=3 align="center">Properties</td>
+            <td rowspan=4 align="center">Properties</td>
             <td align="center"><b>sj</b></td>
             <td align="left"><code>string.Join()</code></td>
             <td align="left">-</td>
@@ -96,6 +96,12 @@
             <td align="left"><code>init auto property</code></td>
             <td align="left">-</td>
             <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Properties/propi.snippet">propi.snippet</a></td>
+        </tr>
+        <tr>
+            <td align="center"><b>propi</b></td>
+            <td align="left"><code>required auto property</code></td>
+            <td align="left">-</td>
+            <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Properties/rprop.snippet">rprop.snippet</a></td>
         </tr>
         <!-- Types -->
         <tr>
