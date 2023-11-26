@@ -98,7 +98,7 @@
             <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Properties/propi.snippet">propi.snippet</a></td>
         </tr>
         <tr>
-            <td align="center"><b>propi</b></td>
+            <td align="center"><b>rprop</b></td>
             <td align="left"><code>required auto property</code></td>
             <td align="left">-</td>
             <td align="left"><a href="https://github.com/DepthRel/DevEnvironment/blob/master/Snippets/Properties/rprop.snippet">rprop.snippet</a></td>
