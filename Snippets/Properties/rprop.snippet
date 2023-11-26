@@ -2,14 +2,14 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>public Type Prop { get; init; }</Title>
+      <Title>public required Type Prop { get; init; }</Title>
       <Author>DepthRel</Author>
-      <Description>Call insert of public Type Prop { get; init; }</Description>
-      <Shortcut>propi</Shortcut>
+      <Description>Call insert of public required Type Prop { get; init; }</Description>
+      <Shortcut>rprop</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[public $Type$ $MyProperty$ { get; init; }$end$]]>
+        <![CDATA[public required $Type$ $MyProperty$ { get; $SetModificator$; }$end$]]>
       </Code>
       <Declarations>
         <Literal>
@@ -21,6 +21,11 @@
           <ID>Type</ID>
           <ToolTip>The stored value type</ToolTip>
           <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>SetModificator</ID>
+          <ToolTip>Property initialization modifier</ToolTip>
+          <Default>init</Default>
         </Literal>
       </Declarations>
     </Snippet>

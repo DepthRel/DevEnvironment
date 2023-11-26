@@ -9,14 +9,14 @@
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[public $variable$ $MyProperty$
+        <![CDATA[public $Variable$ $MyProperty$
                  {
-                     get => ($variable$)GetValue($MyProperty$Property);
+                     get => ($Variable$)GetValue($MyProperty$Property);
                      set => SetValue($MyProperty$Property, value);
                  }
                  
                  public static readonly DependencyProperty $MyProperty$Property =
-                     DependencyProperty.Register(nameof($MyProperty$), typeof($variable$), typeof($ownerclass$), new PropertyMetadata($default$));
+                     DependencyProperty.Register(nameof($MyProperty$), typeof($Variable$), typeof($Ownerclass$), new PropertyMetadata($Default$));
         $end$]]>
       </Code>
       <Declarations>
@@ -26,17 +26,17 @@
           <Default>MyProperty</Default>
         </Literal>
         <Literal>
-          <ID>variable</ID>
+          <ID>Variable</ID>
           <ToolTip>The stored value type</ToolTip>
           <Default>int</Default>
         </Literal>
         <Literal>
-          <ID>default</ID>
+          <ID>Default</ID>
           <ToolTip>Default value</ToolTip>
           <Default>default</Default>
         </Literal>
         <Literal>
-          <ID>ownerclass</ID>
+          <ID>Ownerclass</ID>
           <ToolTip>The name of current class</ToolTip>
           <Default>ownerclass</Default>
           <Function>ClassName()</Function>

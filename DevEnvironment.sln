@@ -45,6 +45,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{92704016-CB93-45A1-97AB-E7BCB2C52F0D}"
 	ProjectSection(SolutionItems) = preProject
 		Snippets\Properties\propi.snippet = Snippets\Properties\propi.snippet
+		Snippets\Properties\rprop.snippet = Snippets\Properties\rprop.snippet
 		Snippets\Properties\sprop.snippet = Snippets\Properties\sprop.snippet
 		Snippets\Properties\string.Join.snippet = Snippets\Properties\string.Join.snippet
 	EndProjectSection
